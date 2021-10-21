@@ -15,14 +15,16 @@ h1{
 }
 .flexible-container{
     display:flex;
+    margin-bottom: 150px;
 }
-.hero-right img{
+.half-width img{
     width:80%;
 }
  .link-btn{
     text-decoration: none;
     padding:10px 20px;
     color:white;
+    font-weight: 700;
     background-image:linear-gradient(orange,tomato);
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -33,4 +35,39 @@ h1{
 .hero{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}
+.ex-item{
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+}
+#bo-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    
+}
+#bo-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+.experience{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.dream-big{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+footer p{
+    text-align: center;
 }
